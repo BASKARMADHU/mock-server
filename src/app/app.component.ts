@@ -9,11 +9,15 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   title = 'mock-server';
 
-  constructor(private http: HttpClient){}
+  //  details : any;
 
-  ngOnInit(){
-      this.http.get('http://localhost:3000/api/users').subscribe((data) => {
-        console.log(data);
-      })
+  constructor(private http: HttpClient){
+  }
+
+  ngOnInit(): void{
+    this.http.get('http://localhost:3000/api/users').subscribe((response) => {
+        console.log(response);
+        // this.details = response;
+      });
   }
 }
