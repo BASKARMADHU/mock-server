@@ -8,18 +8,23 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'mock-server';
-  details: any;
-  datas: any;
-  //  details : any;
+  // details: any;
+  // datas: any;
 
   constructor(private http: HttpClient){
   }
 
   ngOnInit(): void{
-    this.http.get('http://localhost:3000/api/users').subscribe((response) => {
-        this.details = response;
-        this.datas = this.details.data.users
-        console.log(this.datas);
+    // this.getmovielist();
+  }
 
-      });
-  }}
+  // getmovielist(){
+  //   this.http.get('http://localhost:3000/api/users').subscribe((response) => {
+  //     this.details = response;
+  //     this.datas = this.details.data.users
+  //     console.log(this.datas);
+
+  //   }); 
+  // }
+
+}

@@ -2,20 +2,28 @@
     "data":{
         "users":[
             {
-                "id":101,
-                "name":"baskar"
+                "rating":5.4,
+                "name":"Premam",
+                "imageIcon": "assets/premam.jpg",
+                "language":"Tamil"    
             },
             {
-                "id":102,
-                "name":"baskar2"
+                "rating":7.8,
+                "name":"Leo",
+                "imageIcon": "assets/leo.jpg",
+                "language":"Tamil"
             },
             {
-                "id":103,
-                "name":"baskar3"
+                "rating":8.0,
+                "name":"S ",
+                "imageIcon": "assets/premam.jpg",
+                "language":"Tamil"
             },
             {
-                "id":104,
-                "name":"baskar4"
+                "rating":9.0,
+                "name":"S- 3",
+                "imageIcon": "assets/leo.jpg",
+                "language":"Tamil"
             }
         ]
     }
